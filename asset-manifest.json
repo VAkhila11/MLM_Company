@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MLM_Company/static/css/main.80183320.css",
+    "main.js": "/MLM_Company/static/js/main.caac7355.js",
+    "static/js/453.7db58949.chunk.js": "/MLM_Company/static/js/453.7db58949.chunk.js",
+    "index.html": "/MLM_Company/index.html",
+    "main.80183320.css.map": "/MLM_Company/static/css/main.80183320.css.map",
+    "main.caac7355.js.map": "/MLM_Company/static/js/main.caac7355.js.map",
+    "453.7db58949.chunk.js.map": "/MLM_Company/static/js/453.7db58949.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80183320.css",
+    "static/js/main.caac7355.js"
+  ]
+}
