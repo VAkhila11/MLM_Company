@@ -1,0 +1,100 @@
+.packages {
+    padding: 20px;
+}
+
+.packages h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.package-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.package-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.package-card:hover {
+    transform: translateY(-5px);
+}
+
+.package-card h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.price {
+    margin-bottom: 20px;
+}
+
+.price .amount {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.price .period {
+    color: #7f8c8d;
+    font-size: 1rem;
+}
+
+.commission-rate {
+    color: #2ecc71;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-align: left;
+}
+
+.features li {
+    padding: 8px 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+}
+
+.features li:last-child {
+    border-bottom: none;
+}
+
+.select-btn {
+    width: 100%;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.select-btn:hover {
+    background: #2980b9;
+}
+
+.select-btn:disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .package-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .price .amount {
+        font-size: 2rem;
+    }
+} 
